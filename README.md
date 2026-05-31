@@ -1,6 +1,6 @@
 # Flanker Task Demo
 
-A browser-based implementation of the Eriksen Flanker Task, built as a demo for the **STEP-1 2026 Workshop** at Indiana University.
+A browser-based implementation of the Eriksen Flanker Task, built as a demo for the **Student Training & Engagement Program** at Florida International University, Miami FL.
 
 ## About the Task
 
