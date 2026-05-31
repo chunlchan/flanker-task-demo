@@ -1,38 +1,26 @@
-# flanker-task
+# Flanker Task Demo
 
-This template should help get you started developing with Vue 3 in Vite.
+A browser-based implementation of the Eriksen Flanker Task, built as a demo for the **STEP-1 2026 Workshop** at Indiana University.
 
-## Recommended IDE Setup
+## About the Task
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+The Flanker Task is a classic cognitive psychology paradigm used to measure selective attention and inhibitory control. Participants respond to the direction of a central arrow while ignoring surrounding "flanker" arrows that may point in the same (congruent) or opposite (incongruent) direction.
 
-## Recommended Browser Setup
+**Trial types:**
+- **Congruent** — flankers match the target (e.g. `<<<<<`)
+- **Incongruent** — flankers conflict with the target (e.g. `>><>>`)
+- **Neutral** — flankers are non-directional (e.g. `--<--`)
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+Response time and accuracy are recorded for each trial.
 
-## Customize configuration
+## Tech Stack
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- [Vue 3](https://vuejs.org/) + [Vite](https://vite.dev/)
+- Trial stimuli loaded from `public/trials.json`
 
-## Project Setup
+## Running Locally
 
 ```sh
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
 ```
