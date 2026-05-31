@@ -1,0 +1,14 @@
+[
+  { "id": 1, "type": "congruent", "direction": "left", "stimulus": "<<<<<<" },
+  { "id": 2, "type": "incongruent", "direction": "right", "stimulus": "<<><<" },
+  { "id": 3, "type": "neutral", "direction": "left", "stimulus": "--<--" },
+  { "id": 4, "type": "congruent", "direction": "right", "stimulus": ">>>>>" },
+  { "id": 5, "type": "incongruent", "direction": "left", "stimulus": ">><>>" },
+  { "id": 6, "type": "neutral", "direction": "right", "stimulus": "-->--" },
+  { "id": 7, "type": "congruent", "direction": "left", "stimulus": "<<<<<" },
+  { "id": 8, "type": "incongruent", "direction": "right", "stimulus": "<<><<" },
+  { "id": 9, "type": "neutral", "direction": "left", "stimulus": "--<--" },
+  { "id": 10, "type": "congruent", "direction": "right", "stimulus": ">>>>>" },
+  { "id": 11, "type": "incongruent", "direction": "left", "stimulus": ">><>>" },
+  { "id": 12, "type": "neutral", "direction": "right", "stimulus": "-->--" }
+]
